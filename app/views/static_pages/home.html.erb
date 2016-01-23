@@ -1,2 +1,99 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!-- Header -->
+<header id="head">
+	<div class="container">
+		<div class="row">
+			<h1>The Smart Job Search</h1>
+			<p class="tagline">Looking for a job just became simple</p>
+			<%= link_to "Sign Up Now!", signup_path, class: "btn btn-action btn-lg" %>
+		</div>
+	</div>
+</header>
+<!-- /Header -->
+
+
+<!-- Intro -->
+<div class="container text-center">
+	<br> <br>
+	<h2 class="thin">Let us take care of the job search for you</h2>
+	<p class="text-muted">
+		The difference between involvement and commitment is like an eggs-and-ham breakfast:<br> 
+		the chicken was involved; the pig was committed.
+	</p>
+</div>
+<br><br>
+<!-- /Intro-->
+
+<!-- Highlights - jumbotron -->
+
+ <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="thin">Create Your Profile</h2>
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                	<%= image_tag("ipad.png", :alt => "rss feed") %>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="thin">Receive Job Offer Notifications</h2>
+                    <p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                	<%= image_tag("dog.png", :alt => "rss feed") %>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="thin">Get a Job!</h2>
+                    <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <%= image_tag("phones.png", :alt => "rss feed") %>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
+
+
+<!-- /Highlights -->

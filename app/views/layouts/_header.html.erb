@@ -1,0 +1,17 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top headroom animated slideDown" > 
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Button for smallest screens -->
+      <%= link_to "Jarvis", root_path, id: "logo" %>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+       <li><%= link_to "About",   about_path %></li>
+        <li><%= link_to "Support", support_path %></li>
+        <li><%= link_to "SIGN IN", '#', class: "btn" %></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div> 
+<!-- /.navbar -->
